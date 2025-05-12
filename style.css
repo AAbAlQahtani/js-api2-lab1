@@ -1,0 +1,69 @@
+body {
+    background-color: #e3d8ff
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid #4f29b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+button {
+    margin: 10px;
+    background-color: #4f29b7;
+    color: aliceblue;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.card {
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-post {
+    width: 50vh;
+    border: 1px solid #4f29b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+.text {
+    font-size: 1.5rem;
+
+
+}
+
+.img {
+    max-width: 30vh;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #4f29b7;
+    color: aliceblue;
+    border-radius: 25px;
+    width: 50%;
+}
